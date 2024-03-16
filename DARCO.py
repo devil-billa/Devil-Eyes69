@@ -70,7 +70,7 @@ def clear():
         print(logo)
 
 ##------------(LOGO)------------##
-os.system('xdg-open https://www.facebook.com/profile.php?id=100091449860035')
+os.system('xdg-open https://www.facebook.com/profile.php?id=1000000000000')
 
 logo=(f"""{A}
 
@@ -193,10 +193,10 @@ def bd():
                 print(f'{R}❲{G}~{R}❳{G} Example {R}:{G} 017 {R}|{G} 019 {R}|{G} 018 {R}|{G} 016');linex()
                 code = input(f"{R}❲{G}?{R}❳{G} Selection {R}:{G} ")
                 try:                    
-                        clear();print(f'{R}❲{G}~{R}❳{G} Example {R}:{G} 3000 {R}|{G} 5000 {R}|{G} 10000 {R}|{G} 9999');linex()
+                        clear();print(f'{R}❲{G}~{R}❳{G} Example {R}:{G} 5000 {R}|{G} 10000 {R}|{G} 20000 {R}|{G} 50000');linex()
                         limit = int(input(f'{R}❲{G}?{R}❳{G} Selection {R}:{G} '))
                 except ValueError:
-                        limit = 5000
+                        limit = 10000
                 for nmbr in range(limit):
                         nmp = ''.join(random.choice(string.digits) for _ in range(8))
                         user.append(nmp)
@@ -227,10 +227,10 @@ def ind():
                 print(f'{R}❲{G}~{R}❳{G} Example {R}:{G} +91639 {R}|{G} +91620 {R}|{G} +91720 {R}|{G} +91789');linex()
                 code = input(f"{R}❲{G}?{R}❳{G} Selection {R}:{G} ")
                 try:                    
-                        clear();print(f'{R}❲{G}~{R}❳{G} Example {R}:{G} 3000 {R}|{G} 5000 {R}|{G} 10000 {R}|{G} 9999');linex()
+                        clear();print(f'{R}❲{G}~{R}❳{G} Example {R}:{G} 5000 {R}|{G} 10000 {R}|{G} 20000 {R}|{G} 50000');linex()
                         limit = int(input(f'{R}❲{G}?{R}❳{G} Selection {R}:{G} '))
                 except ValueError:
-                        limit = 5000
+                        limit = 10000
                 for nmbr in range(limit):
                         nmp = ''.join(random.choice(string.digits) for _ in range(7))
                         user.append(nmp)
@@ -267,7 +267,7 @@ def gmail():
                 print(f'{R}❲{G}~{R}❳{G} Example {R}:{G} @gmail.com {R}❲{G}ETC{R}❳{G}');linex()
                 domain = input(f"{R}❲{G}?{R}❳{G} Selection {R}:{G} ")
                 clear()
-                print(f'{R}❲{G}~{R}❳{G} Example {R}:{G} 3000 {R}|{G} 5000 {R}|{G} 10000 {R}|{G} 9999');linex()
+                print(f'{R}❲{G}~{R}❳{G} Example {R}:{G} 5000 {R}|{G} 10000 {R}|{G} 20000 {R}|{G} 50000');linex()
                 try:
                         limit=int(input(f'{R}❲{G}?{R}❳{G} Selection {R}:{G} '))
  
